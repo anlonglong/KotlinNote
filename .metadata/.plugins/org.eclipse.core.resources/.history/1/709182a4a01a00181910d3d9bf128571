@@ -1,0 +1,8 @@
+package com.kt
+
+const val TOP_VALUE : String = "this is top value"
+
+fun main(args: Array<String>) {
+	print("log")
+}
+

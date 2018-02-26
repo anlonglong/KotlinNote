@@ -1,0 +1,14 @@
+package com.kt
+
+const val TOP_VALUE_STR : String = "this is top value"
+
+const val TOP_VALUE_INt : Int = 10
+
+fun topFun() {
+	print("this is top fun")
+}
+
+fun main(args: Array<String>) {
+	print(TOP_VALUE_STR)
+}
+

@@ -1,0 +1,6 @@
+package com.kt
+class Test constructor() {
+	
+	constructor(String name:Int) : this()
+}
+

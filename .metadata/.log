@@ -1,0 +1,44 @@
+!SESSION 2018-02-26 10:46:12.492 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\anlonglong\eclipse\workspace\kotlin -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-02-26 10:46:41.037
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anlonglong'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 11:13:30.985
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 11:13:30.996
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 13:00:03.516
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 13:00:03.522
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 13:00:03.526
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 14:39:58.484
+!MESSAGE Cannot install Kotlin Semantic highlighter for viewer org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@78553e95
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 16:59:20.490
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 16:59:20.508
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 16:59:20.520
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-26 16:59:20.527
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project

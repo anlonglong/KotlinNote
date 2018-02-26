@@ -1,0 +1,26 @@
+package com.kt
+
+import java.io.File
+
+const val TOP_VALUE_STR : String = "this is top value"
+
+const val TOP_VALUE_INt : Int = 10
+
+var top_pro : String = ""
+
+val top_val : Int = 10
+
+fun topFun() {
+	println("this is top fun")
+}
+
+fun main(args: Array<String>) {
+	println(TOP_VALUE_STR)
+	
+	val test = Test()
+	test.name = "jack"
+	test.printName()
+    val arr =arrayOf(1,2)
+	val len = (arr?.size)?:("this array is null")    //
+}
+
