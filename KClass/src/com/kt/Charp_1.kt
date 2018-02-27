@@ -18,13 +18,25 @@ fun topFun() {
 /**
  之所以返回值可以为null是因为,str的内容无确定是不是完全符合解析规则,有可能是"122sdn"类型的
  **/
-fun parseInt(str: String):Int? {
-	return@parseInt try {
+fun parseInt_1(str: String):Int? {
+	return@parseInt_1 try {
 		str.toInt()
 	}catch (e: NumberFormatException) {
 		null
 	}
 }
+
+//自己捕获异常
+fun parseInt_2(str: String):Int? {
+	try {
+		return str.toInt()
+	}catch(e : NumberFormatException) {
+	    println("parse string containers illager character $str")
+		return null
+	}
+}
+//sdk自己处理
+fun parseInt_3(str:String):Int? = str.toIntOrNull()
 
 fun main(args: Array<String>) {
 	println(TOP_VALUE_STR)
