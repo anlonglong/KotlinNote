@@ -14,5 +14,6 @@ class Cat: Animal {
 	}
 	
 	override var age:Int = 10//可以把父类的val属性重写为var属性
-	//override val birthday = ""//反过来把var属性重写为val是不行的
+	//override val birthday = ""//反过来把var属性重写为val是不行的,
+	//因为val已经定已过getter方法,如果重写为var类型,会额外的增加setterff
 }
