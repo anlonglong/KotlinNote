@@ -24,7 +24,9 @@ fun main(args: Array<String>) {
 fun test1() {
 	val t = object {
 		var text: String = "无继承无实现接口的对象表达式"
-
+        fun t() {
+			
+		}
 	}
 
 	println(t.text)
