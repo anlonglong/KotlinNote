@@ -1,7 +1,7 @@
 package com.kt
 
 class Person(var name:String,var age:Int) {
-	//init´úÂë¿ìÖ»ÄÜÓÃÀ´³õÊ¼»¯×¡¹¹Ôìº¯Êı,´Î¹¹Ôìº¯ÊıÎŞ·¨Ê¹ÓÃ
+	//initä»£ç å¿«åªèƒ½ç”¨æ¥åˆå§‹åŒ–ä½æ„é€ å‡½æ•°ä¸­çš„å‚æ•°,æ¬¡æ„é€ å‡½æ•°æ— æ³•ä½¿ç”¨åœ¨initä»£ç å¤¸ä¸­è®¿é—®
 	init{
 		name = "default name"
 		age = 0
@@ -11,7 +11,7 @@ class Person(var name:String,var age:Int) {
 	init{
 		name = "second default name"
 		age = 2
-		//gender = "man"±¨´í
+		//gender = "man"æŠ¥é”™
 	}
 	
 }
